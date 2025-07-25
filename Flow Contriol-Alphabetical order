@@ -1,0 +1,10 @@
+import java.util.*;
+ class Main{
+    public static void main(String[]args){
+       char a='s';
+        char b='e';
+       char[]arr={a,b};
+       Arrays.sort(arr);
+       System.out.println(arr[0]+","+arr[1]);
+     }
+ }
